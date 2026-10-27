@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# SQLite databases and persistent scan records
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# Environment secrets and credentials
+.env
+*.env
+.streamlit/secrets.toml
+
+# IDE and OS cache
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exported report PDFs
+*.pdf
